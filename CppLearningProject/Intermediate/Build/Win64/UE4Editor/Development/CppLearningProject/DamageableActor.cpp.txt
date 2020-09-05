@@ -1,0 +1,3 @@
+C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\Definitions.CppLearningProject.h
+C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Source\CppLearningProject\DamageableActor.h
+C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Inc\CppLearningProject\DamageableActor.generated.h

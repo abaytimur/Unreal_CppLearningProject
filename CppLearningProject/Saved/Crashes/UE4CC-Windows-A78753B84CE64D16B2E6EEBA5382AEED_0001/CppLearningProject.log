@@ -1,0 +1,882 @@
+﻿Log file open, 09/05/20 15:28:29
+LogInit: Display: Running engine for game: CppLearningProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.231824
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD FX(tm)-8350 Eight-Core Processor           , GPU: NVIDIA GeForce GTX 680
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=dabulyu -epicuserid=e8d42ccb30904d6a8cd70c70221a2372 -epiclocale=en
+LogInit: Base Directory: C:/Kadir/Programlar/Unreal Engine/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Engine.ini]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Engine.ini]
+[2020.09.05-12.28.29:633][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Engine.ini]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Engine.ini]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.05-12.28.29:633][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.05-12.28.29:634][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.05-12.28.29:634][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.05-12.28.29:634][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Engine.ini]
+[2020.09.05-12.28.29:634][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Engine.ini]
+[2020.09.05-12.28.29:641][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.05-12.28.29:641][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.05-12.28.29:642][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.05-12.28.29:642][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.05-12.28.29:642][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.05-12.28.29:643][  0]LogHAL: Display: Platform has ~ 16 GB [17160142848 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.05-12.28.29:643][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.05-12.28.29:643][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.05-12.28.29:643][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.05-12.28.29:644][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.05-12.28.29:645][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.05-12.28.29:645][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.05-12.28.29:645][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.05-12.28.29:645][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Config/Windows/Engine.ini]
+[2020.09.05-12.28.29:645][  0]LogInit: Computer: KADIR
+[2020.09.05-12.28.29:645][  0]LogInit: User: abay
+[2020.09.05-12.28.29:645][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.09.05-12.28.29:645][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.05-12.28.29:645][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.09.05-12.28.29:645][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.05-12.28.29:645][  0]LogMemory: Process Physical Memory: 115.98 MB used, 115.98 MB peak
+[2020.09.05-12.28.29:645][  0]LogMemory: Process Virtual Memory: 98.00 MB used, 98.00 MB peak
+[2020.09.05-12.28.29:645][  0]LogMemory: Physical Memory: 7705.02 MB used,  8660.17 MB free, 16365.19 MB total
+[2020.09.05-12.28.29:645][  0]LogMemory: Virtual Memory: 5147.00 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.09.05-12.28.29:651][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.05-12.28.29:697][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.05-12.28.29:698][  0]LogInit: Using OS detected language (en-US).
+[2020.09.05-12.28.29:698][  0]LogInit: Using OS detected locale (tr-TR).
+[2020.09.05-12.28.29:708][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.05-12.28.29:966][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.05-12.28.30:016][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.05-12.28.30:016][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.05-12.28.30:230][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.05-12.28.30:230][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.05-12.28.30:230][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.05-12.28.30:230][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.05-12.28.30:319][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 680' (Feature Level 11_0)
+[2020.09.05-12.28.30:319][  0]LogD3D11RHI:       2007/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.09.05-12.28.30:322][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.05-12.28.30:322][  0]LogD3D11RHI:       0/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.05-12.28.30:322][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.05-12.28.30:332][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.05-12.28.30:332][  0]LogD3D11RHI:     GPU DeviceId: 0x1180 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.05-12.28.30:332][  0]LogWindows: EnumDisplayDevices:
+[2020.09.05-12.28.30:332][  0]LogWindows:    0. 'NVIDIA GeForce GTX 680' (P:1 D:1)
+[2020.09.05-12.28.30:333][  0]LogWindows:    1. 'NVIDIA GeForce GTX 680' (P:0 D:1)
+[2020.09.05-12.28.30:333][  0]LogWindows:    2. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2020.09.05-12.28.30:333][  0]LogWindows:    3. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2020.09.05-12.28.30:333][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.09.05-12.28.30:333][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 680
+[2020.09.05-12.28.30:333][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.09.05-12.28.30:333][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.09.05-12.28.30:333][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2020.09.05-12.28.30:404][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.09.05-12.28.30:406][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.05-12.28.30:406][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.05-12.28.30:428][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.05-12.28.30:771][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.05-12.28.30:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.05-12.28.30:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.05-12.28.30:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.05-12.28.30:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.05-12.28.30:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.05-12.28.30:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.05-12.28.30:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.05-12.28.30:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.05-12.28.30:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.05-12.28.30:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.05-12.28.30:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.05-12.28.30:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.05-12.28.30:844][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.05-12.28.30:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.05-12.28.30:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.05-12.28.30:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.05-12.28.30:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.05-12.28.30:906][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.05-12.28.30:918][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.05-12.28.30:953][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.05-12.28.30:953][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.05-12.28.30:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.05-12.28.30:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.05-12.28.30:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.05-12.28.31:000][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.05-12.28.31:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.05-12.28.31:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.05-12.28.31:025][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.05-12.28.31:034][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.05-12.28.31:108][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Intermediate/Shaders/WorkingDirectory/12852/).
+[2020.09.05-12.28.31:108][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/a_bay/AppData/Local/Temp/UnrealShaderWorkingDir/0B34399448414B937A30A4B776B7BEDF/'.
+[2020.09.05-12.28.31:109][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2020.09.05-12.28.32:296][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.05-12.28.32:396][  0]LogDerivedDataCache: Loaded boot cache 0.10s 75MB C:/Users/a_bay/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.05-12.28.32:397][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/a_bay/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.05-12.28.32:397][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.05-12.28.32:397][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.05-12.28.32:397][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.05-12.28.32:397][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.05-12.28.32:410][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.05-12.28.32:410][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.05-12.28.32:410][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.05-12.28.32:412][  0]LogDerivedDataCache: Using Local data cache path C:/Users/a_bay/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.05-12.28.32:412][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.05-12.28.32:412][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.05-12.28.32:482][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.05-12.28.32:482][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.05-12.28.32:513][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
+[2020.09.05-12.28.32:849][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.05-12.28.32:995][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.05-12.28.32:995][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.05-12.28.32:995][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.05-12.28.32:995][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.05-12.28.32:995][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.05-12.28.33:016][  0]LogNetVersion: CppLearningProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2466095116)
+[2020.09.05-12.28.33:570][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001C0E8C04380), frame # 0
+[2020.09.05-12.28.33:570][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C0E9B70A40), frame # 0
+[2020.09.05-12.28.33:572][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C0E9B85E00), frame # 0
+[2020.09.05-12.28.33:637][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.057911 seconds
+[2020.09.05-12.28.33:645][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.05-12.28.33:645][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.05-12.28.33:645][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.05-12.28.34:069][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.05-12.28.34:074][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.05-12.28.34:173][  0]SourceControl: Source control is disabled
+[2020.09.05-12.28.34:173][  0]SourceControl: Source control is disabled
+[2020.09.05-12.28.34:177][  0]SourceControl: Source control is disabled
+[2020.09.05-12.28.34:180][  0]SourceControl: Source control is disabled
+[2020.09.05-12.28.34:188][  0]SourceControl: Source control is disabled
+[2020.09.05-12.28.34:482][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.05-12.28.34:505][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.05-12.28.34:505][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.05-12.28.34:572][  0]LogOcInput: OculusInput pre-init called
+[2020.09.05-12.28.34:588][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.05-12.28.34:588][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.05-12.28.34:668][  0]LogEngine: Initializing Engine...
+[2020.09.05-12.28.34:669][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.05-12.28.34:669][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.05-12.28.34:670][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.05-12.28.34:837][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.05-12.28.34:847][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.05-12.28.34:847][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C0EB783C00), frame # 0
+[2020.09.05-12.28.34:847][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C0EED01940), frame # 0
+[2020.09.05-12.28.34:870][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.05-12.28.34:871][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.05-12.28.34:871][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.05-12.28.34:871][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.05-12.28.34:871][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.05-12.28.34:871][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.05-12.28.34:871][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.05-12.28.34:871][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.05-12.28.34:871][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.05-12.28.34:871][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.05-12.28.34:886][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.05-12.28.34:886][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.05-12.28.34:965][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.05-12.28.34:971][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.05-12.28.34:974][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.05-12.28.34:974][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.05-12.28.34:975][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.05-12.28.34:977][  0]LogInit: FAudioDevice initialized.
+[2020.09.05-12.28.34:977][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.05-12.28.35:090][  0]LogDerivedDataCache: Saved boot cache 0.11s 75MB C:/Users/a_bay/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.05-12.28.35:091][  0]LogInit: Texture streaming: Enabled
+[2020.09.05-12.28.35:109][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.05-12.28.35:110][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.05-12.28.35:111][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.05-12.28.35:159][  0]LogInit: Transaction tracking system initialized
+[2020.09.05-12.28.35:185][  0]BlueprintLog: New page: Editor Load
+[2020.09.05-12.28.35:266][  0]LocalizationService: Localization service is disabled
+[2020.09.05-12.28.35:453][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.05-12.28.35:453][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.05-12.28.35:712][  0]LogFileCache: Scanning file cache for directory 'C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Content/' took 0.00s
+[2020.09.05-12.28.35:950][  0]SourceControl: Source control is disabled
+[2020.09.05-12.28.35:950][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.592
+[2020.09.05-12.28.35:951][  0]LightingResults: New page: Lighting Build
+[2020.09.05-12.28.35:952][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.05-12.28.35:952][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.05-12.28.35:952][  0]MapCheck: New page: Map Check
+[2020.09.05-12.28.35:952][  0]LightingResults: New page: Lighting Build
+[2020.09.05-12.28.35:989][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C0EB783C00), frame # 0
+[2020.09.05-12.28.35:989][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C0EED01940), frame # 0
+[2020.09.05-12.28.35:990][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.09.05-12.28.36:184][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.09.05-12.28.36:184][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C0DD16C600), frame # 0
+[2020.09.05-12.28.36:184][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C0DD05CA40), frame # 0
+[2020.09.05-12.28.36:191][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.05-12.28.36:233][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.09.05-12.28.36:234][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.05-12.28.36:234][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,262ms to complete.
+[2020.09.05-12.28.36:234][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.284
+[2020.09.05-12.28.36:237][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.880
+[2020.09.05-12.28.36:379][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.05-12.28.36:389][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.05-12.28.36:398][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.05-12.28.36:408][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.05-12.28.36:417][  0]LogCollectionManager: Loaded 0 collections in 0.002526 seconds
+[2020.09.05-12.28.36:438][  0]LogFileCache: Scanning file cache for directory 'C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Saved/Collections/' took 0.00s
+[2020.09.05-12.28.36:439][  0]LogFileCache: Scanning file cache for directory 'C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Content/Developers/abay/Collections/' took 0.00s
+[2020.09.05-12.28.36:439][  0]LogFileCache: Scanning file cache for directory 'C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Content/Collections/' took 0.00s
+[2020.09.05-12.28.36:439][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 3429 classes and 823 folders.
+[2020.09.05-12.28.36:442][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.05-12.28.36:521][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.05-12.28.36:522][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.09.05-12.28.36:566][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.05-12.28.37:186][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.05-12.28.37:191][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.05-12.28.37:297][  0]LogRenderer: Reallocating scene render targets to support 1208x668 Format 10 NumSamples 1 (Frame:1).
+[2020.09.05-12.28.37:356][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.05-12.28.37:438][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.09.05-12.28.37:438][  0]LogLoad: (Engine Initialization) Total time: 10.08 seconds
+[2020.09.05-12.28.37:438][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.05-12.28.37:487][  0]LogAssetRegistry: Asset discovery search completed in 4.9764 seconds
+[2020.09.05-12.28.37:493][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.09.05-12.28.37:494][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.05-12.28.39:693][243]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.09.05-12.28.39:699][243]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.09.05-12.36.00:512][ 31]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.05-12.36.00:534][ 31]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/CppLearningProject.FPSCharacter
+[2020.09.05-12.38.08:336][937]LogHotReload: New module detected: UE4Editor-CppLearningProject-0002.dll
+[2020.09.05-12.38.10:034][943]LogHotReload: Starting Hot-Reload from IDE
+[2020.09.05-12.38.10:075][943]LogContentBrowser: Native class hierarchy updated for 'CppLearningProject' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2020.09.05-12.38.10:077][943]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.05-12.38.10:154][943]LogContentBrowser: Native class hierarchy populated in 0.0204 seconds. Added 3429 classes and 823 folders.
+[2020.09.05-12.38.10:166][943]Display: HotReload took  0.1s.
+[2020.09.05-12.41.03:964][531]LogEditor: Attempting to add actor of class 'FPSCharacter' to level at -100.00,80.00,118.00
+[2020.09.05-12.42.27:209][377]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.09.05-12.42.27:209][377]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.09.05-12.42.27:248][377]LogSlate: Took 0.001141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.05-12.42.30:219][680]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.09.05-12.49.09:367][517]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.09.05-12.49.09:367][517]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.09.05-12.49.11:377][711]Running C:/Kadir/Programlar/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject" -game -rocket -progress
+[2020.09.05-12.49.11:883][711]Discovering modules, targets and source code for project...
+[2020.09.05-12.49.14:610][711]Binding IntelliSense data...
+[2020.09.05-12.49.17:961][711]Binding IntelliSense data... 100%
+[2020.09.05-12.49.17:961][711]Writing project files...
+[2020.09.05-12.49.25:953][711]Writing project files... 100%
+[2020.09.05-12.49.26:085][711]Candidate modules for hot reload:
+[2020.09.05-12.49.26:085][711]  CppLearningProject
+[2020.09.05-12.49.26:085][711]Launching UnrealBuildTool... [C:/Kadir/Programlar/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CppLearningProject,5589 CppLearningProjectEditor Win64 Development -Project="C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject" "C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject"  -IgnoreJunk]
+[2020.09.05-12.49.43:534][711]CompilerResultsLog: New page: Compilation - 5 Eyl 2020 18:49:43
+[2020.09.05-12.49.43:534][711]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject).
+[2020.09.05-12.49.43:534][711]CompilerResultsLog: Creating makefile for CppLearningProjectEditor (no existing makefile)
+[2020.09.05-12.49.43:534][711]CompilerResultsLog: Parsing headers for CppLearningProjectEditor
+[2020.09.05-12.49.43:534][711]CompilerResultsLog:   Running UnrealHeaderTool "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\CppLearningProject.uproject" "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\CppLearningProjectEditor\Development\CppLearningProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\a_bay\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: Reflection code generated for CppLearningProjectEditor in 8,7766691 seconds
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: Building CppLearningProjectEditor...
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Kadir\Programlar\Visual Studio\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: Distributing 6 actions to XGE
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: License is invalid:
+[2020.09.05-12.49.43:535][711]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.09.05-12.49.43:535][711]CompilerResultsLog:     This build will run in standalone mode.
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: 
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: MyFPSCharacter.cpp (0:01.34 at +0:00)
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: CppLearningProject.init.gen.cpp (0:01.04 at +0:01)
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: MyFPSCharacter.gen.cpp (0:01.32 at +0:02)
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: UE4Editor-CppLearningProject-5589.dll (0:01.12 at +0:03)
+[2020.09.05-12.49.43:535][711]CompilerResultsLog:    Creating library C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-5589.suppressed.lib and object C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-5589.suppressed.exp
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: UE4Editor-CppLearningProject-5589.lib (0:00.14 at +0:04)
+[2020.09.05-12.49.43:535][711]CompilerResultsLog:    Creating library C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-5589.lib and object C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-5589.exp
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: CppLearningProjectEditor.target (0:00.26 at +0:05)
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: 
+[2020.09.05-12.49.43:535][711]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: 
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: 1 build system warning(s):
+[2020.09.05-12.49.43:535][711]CompilerResultsLog:    - License is invalid
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: 
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: Total time in XGE executor: 5,52 seconds
+[2020.09.05-12.49.43:535][711]CompilerResultsLog: Total execution time: 17,32 seconds
+[2020.09.05-12.49.43:535][711]LogMainFrame: MainFrame: Module compiling took 17.457 seconds
+[2020.09.05-12.49.43:544][711]LogClass: Could not find existing class MyFPSCharacter in package /Script/CppLearningProject for HotReload, assuming new class
+[2020.09.05-12.49.43:550][711]LogHotReload: Re-instancing FPSCharacter after hot-reload.
+[2020.09.05-12.49.43:567][711]LogContentBrowser: Native class hierarchy updated for 'CppLearningProject' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2020.09.05-12.49.43:569][711]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.05-12.49.43:638][711]LogContentBrowser: Native class hierarchy populated in 0.0201 seconds. Added 3430 classes and 823 folders.
+[2020.09.05-12.49.43:638][711]Display: HotReload took 17.6s.
+[2020.09.05-12.49.43:644][711]Warning: HotReload operation took 17.6s.
+[2020.09.05-12.49.44:485][711]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.09.05-12.49.44:496][711]LogHotReload: New module detected: UE4Editor-CppLearningProject-5589.dll
+[2020.09.05-12.49.44:564][712]LogHotReload: Starting Hot-Reload from IDE
+[2020.09.05-12.49.44:594][712]LogContentBrowser: Native class hierarchy updated for 'CppLearningProject' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2020.09.05-12.49.44:595][712]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.05-12.49.44:619][712]LogContentBrowser: Native class hierarchy populated in 0.0177 seconds. Added 3430 classes and 823 folders.
+[2020.09.05-12.49.44:625][712]Display: HotReload took  0.1s.
+[2020.09.05-12.55.05:647][663]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/CppLearningProject.FPSCharacter
+[2020.09.05-13.41.10:736][964]Candidate modules for hot reload:
+[2020.09.05-13.41.10:736][964]  CppLearningProject
+[2020.09.05-13.41.10:736][964]Launching UnrealBuildTool... [C:/Kadir/Programlar/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CppLearningProject,6113 CppLearningProjectEditor Win64 Development -Project="C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject" "C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject"  -IgnoreJunk]
+[2020.09.05-13.41.10:738][964]Warning: Starting HotReload took  0.0s.
+[2020.09.05-13.41.23:403][171]CompilerResultsLog: New page: Compilation - 5 Eyl 2020 19:41:23
+[2020.09.05-13.41.23:403][171]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject).
+[2020.09.05-13.41.23:403][171]CompilerResultsLog: Invalidating makefile for CppLearningProjectEditor (source file removed)
+[2020.09.05-13.41.23:403][171]CompilerResultsLog: Parsing headers for CppLearningProjectEditor
+[2020.09.05-13.41.23:403][171]CompilerResultsLog:   Running UnrealHeaderTool "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\CppLearningProject.uproject" "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\CppLearningProjectEditor\Development\CppLearningProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\a_bay\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.09.05-13.41.23:403][171]CompilerResultsLog: Error: C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/Source/CppLearningProject/FPSCharacter.h(22)  : Error: Unrecognized type 'void' - type must be a UCLASS, USTRUCT or UENUM
+[2020.09.05-13.41.23:404][171]LogMainFrame: MainFrame: Module compiling took 12.678 seconds
+[2020.09.05-13.41.23:404][171]Warning: HotReload failed, recompile failed
+[2020.09.05-13.41.26:789][180]LogSlate: Took 0.001019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.09.05-13.42.49:552][934]LogSlate: Window 'Message Log' being destroyed
+[2020.09.05-13.42.49:560][934]LogSlate: Window 'Message Log' being destroyed
+[2020.09.05-13.42.50:479][ 22]Candidate modules for hot reload:
+[2020.09.05-13.42.50:479][ 22]  CppLearningProject
+[2020.09.05-13.42.50:479][ 22]Launching UnrealBuildTool... [C:/Kadir/Programlar/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CppLearningProject,417 CppLearningProjectEditor Win64 Development -Project="C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject" "C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject"  -IgnoreJunk]
+[2020.09.05-13.42.50:480][ 22]Warning: Starting HotReload took  0.0s.
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: New page: Compilation - 5 Eyl 2020 19:43:18
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject).
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: Invalidating makefile for CppLearningProjectEditor (source file removed)
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: Parsing headers for CppLearningProjectEditor
+[2020.09.05-13.43.18:176][279]CompilerResultsLog:   Running UnrealHeaderTool "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\CppLearningProject.uproject" "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\CppLearningProjectEditor\Development\CppLearningProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\a_bay\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: Reflection code generated for CppLearningProjectEditor in 8,1446425 seconds
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: Building CppLearningProjectEditor...
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Kadir\Programlar\Visual Studio\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: Distributing 6 actions to XGE
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: License is invalid:
+[2020.09.05-13.43.18:176][279]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.09.05-13.43.18:176][279]CompilerResultsLog:     This build will run in standalone mode.
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: 
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: FPSCharacter.cpp (0:07.84 at +0:00)
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: CppLearningProject.init.gen.cpp (0:04.25 at +0:07)
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: FPSCharacter.gen.cpp (0:01.82 at +0:12)
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: UE4Editor-CppLearningProject-0417.dll (0:01.04 at +0:13)
+[2020.09.05-13.43.18:176][279]CompilerResultsLog:    Creating library C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-0417.suppressed.lib and object C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-0417.suppressed.exp
+[2020.09.05-13.43.18:176][279]CompilerResultsLog: UE4Editor-CppLearningProject-0417.lib (0:00.12 at +0:15)
+[2020.09.05-13.43.18:176][279]CompilerResultsLog:    Creating library C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-0417.lib and object C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-0417.exp
+[2020.09.05-13.43.18:177][279]CompilerResultsLog: CppLearningProjectEditor.target (0:00.26 at +0:15)
+[2020.09.05-13.43.18:177][279]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.09.05-13.43.18:177][279]CompilerResultsLog: 
+[2020.09.05-13.43.18:177][279]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.09.05-13.43.18:177][279]CompilerResultsLog: 
+[2020.09.05-13.43.18:177][279]CompilerResultsLog: 1 build system warning(s):
+[2020.09.05-13.43.18:177][279]CompilerResultsLog:    - License is invalid
+[2020.09.05-13.43.18:177][279]CompilerResultsLog: 
+[2020.09.05-13.43.18:177][279]CompilerResultsLog: Total time in XGE executor: 15,56 seconds
+[2020.09.05-13.43.18:177][279]CompilerResultsLog: Total execution time: 27,44 seconds
+[2020.09.05-13.43.18:177][279]LogMainFrame: MainFrame: Module compiling took 27.703 seconds
+[2020.09.05-13.43.18:283][279]LogContentBrowser: Native class hierarchy populated in 0.0611 seconds. Added 3430 classes and 823 folders.
+[2020.09.05-13.43.18:283][279]Display: HotReload took 27.8s.
+[2020.09.05-13.43.53:602][635]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.09.05-13.43.53:602][635]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.09.05-13.43.56:603][910]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.09.05-13.44.10:451][348]Running C:/Kadir/Programlar/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject" -game -rocket -progress
+[2020.09.05-13.44.10:955][348]Discovering modules, targets and source code for project...
+[2020.09.05-13.44.13:378][348]Binding IntelliSense data...
+[2020.09.05-13.44.16:516][348]Binding IntelliSense data... 100%
+[2020.09.05-13.44.16:516][348]Writing project files...
+[2020.09.05-13.44.24:086][348]Writing project files... 100%
+[2020.09.05-13.44.24:207][348]Candidate modules for hot reload:
+[2020.09.05-13.44.24:207][348]  CppLearningProject
+[2020.09.05-13.44.24:207][348]Launching UnrealBuildTool... [C:/Kadir/Programlar/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CppLearningProject,1947 CppLearningProjectEditor Win64 Development -Project="C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject" "C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject"  -IgnoreJunk]
+[2020.09.05-13.44.39:433][348]CompilerResultsLog: New page: Compilation - 5 Eyl 2020 19:44:39
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject).
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: Creating makefile for CppLearningProjectEditor (no existing makefile)
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: Parsing headers for CppLearningProjectEditor
+[2020.09.05-13.44.39:434][348]CompilerResultsLog:   Running UnrealHeaderTool "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\CppLearningProject.uproject" "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\CppLearningProjectEditor\Development\CppLearningProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\a_bay\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: Reflection code generated for CppLearningProjectEditor in 7,4452638 seconds
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: Building CppLearningProjectEditor...
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Kadir\Programlar\Visual Studio\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: Distributing 6 actions to XGE
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: License is invalid:
+[2020.09.05-13.44.39:434][348]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.09.05-13.44.39:434][348]CompilerResultsLog:     This build will run in standalone mode.
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: 
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: DamageableActor.cpp (0:00.92 at +0:00)
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: CppLearningProject.init.gen.cpp (0:00.87 at +0:00)
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: DamageableActor.gen.cpp (0:01.18 at +0:01)
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: UE4Editor-CppLearningProject-1947.dll (0:01.14 at +0:03)
+[2020.09.05-13.44.39:434][348]CompilerResultsLog:    Creating library C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-1947.suppressed.lib and object C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-1947.suppressed.exp
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: UE4Editor-CppLearningProject-1947.lib (0:00.12 at +0:04)
+[2020.09.05-13.44.39:434][348]CompilerResultsLog:    Creating library C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-1947.lib and object C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-1947.exp
+[2020.09.05-13.44.39:434][348]CompilerResultsLog: CppLearningProjectEditor.target (0:00.25 at +0:04)
+[2020.09.05-13.44.39:435][348]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.09.05-13.44.39:435][348]CompilerResultsLog: 
+[2020.09.05-13.44.39:435][348]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.09.05-13.44.39:435][348]CompilerResultsLog: 
+[2020.09.05-13.44.39:435][348]CompilerResultsLog: 1 build system warning(s):
+[2020.09.05-13.44.39:435][348]CompilerResultsLog:    - License is invalid
+[2020.09.05-13.44.39:435][348]CompilerResultsLog: 
+[2020.09.05-13.44.39:435][348]CompilerResultsLog: Total time in XGE executor: 4,72 seconds
+[2020.09.05-13.44.39:435][348]CompilerResultsLog: Total execution time: 15,09 seconds
+[2020.09.05-13.44.39:435][348]LogMainFrame: MainFrame: Module compiling took 15.236 seconds
+[2020.09.05-13.44.39:484][348]LogClass: Could not find existing class DamageableActor in package /Script/CppLearningProject for HotReload, assuming new class
+[2020.09.05-13.44.39:484][348]LogClass: Could not find existing class FPSCharacter in package /Script/CppLearningProject for HotReload, assuming new class
+[2020.09.05-13.44.39:484][348]LogClass: Function FireWeapon is new.
+[2020.09.05-13.44.39:499][348]LogHotReload: Re-instancing FPSCharacter after hot-reload.
+[2020.09.05-13.44.39:513][348]LogContentBrowser: Native class hierarchy updated for 'CppLearningProject' in 0.0007 seconds. Added 4 classes and 2 folders.
+[2020.09.05-13.44.39:515][348]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.05-13.44.39:597][348]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 3431 classes and 823 folders.
+[2020.09.05-13.44.39:597][348]Display: HotReload took 15.4s.
+[2020.09.05-13.44.39:599][348]Warning: HotReload operation took 15.4s.
+[2020.09.05-13.44.40:889][348]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.09.05-13.44.40:896][348]LogHotReload: New module detected: UE4Editor-CppLearningProject-1947.dll
+[2020.09.05-13.44.40:985][349]LogHotReload: Starting Hot-Reload from IDE
+[2020.09.05-13.44.41:017][349]LogContentBrowser: Native class hierarchy updated for 'CppLearningProject' in 0.0008 seconds. Added 4 classes and 2 folders.
+[2020.09.05-13.44.41:019][349]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.05-13.44.41:048][349]LogContentBrowser: Native class hierarchy populated in 0.0205 seconds. Added 3431 classes and 823 folders.
+[2020.09.05-13.44.41:054][349]Display: HotReload took  0.1s.
+[2020.09.05-13.56.29:110][753]Candidate modules for hot reload:
+[2020.09.05-13.56.29:110][753]  CppLearningProject
+[2020.09.05-13.56.29:111][753]Launching UnrealBuildTool... [C:/Kadir/Programlar/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CppLearningProject,3200 CppLearningProjectEditor Win64 Development -Project="C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject" "C:/Kadir/Projeler/Unreal/CppLearningProject/Unreal_CppLearningProject/CppLearningProject/CppLearningProject.uproject"  -IgnoreJunk]
+[2020.09.05-13.56.29:112][753]Warning: Starting HotReload took  0.0s.
+[2020.09.05-13.56.47:190][909]CompilerResultsLog: New page: Compilation - 5 Eyl 2020 19:56:47
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject).
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: Parsing headers for CppLearningProjectEditor
+[2020.09.05-13.56.47:191][909]CompilerResultsLog:   Running UnrealHeaderTool "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\CppLearningProject.uproject" "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\CppLearningProjectEditor\Development\CppLearningProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\a_bay\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: Reflection code generated for CppLearningProjectEditor in 10,4676083 seconds
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: Building CppLearningProjectEditor...
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Kadir\Programlar\Visual Studio\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: Distributing 7 actions to XGE
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: License is invalid:
+[2020.09.05-13.56.47:191][909]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.09.05-13.56.47:191][909]CompilerResultsLog:     This build will run in standalone mode.
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: 
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: DamageableActor.cpp (0:00.96 at +0:00)
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: FPSCharacter.cpp (0:01.20 at +0:01)
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: CppLearningProject.init.gen.cpp (0:00.87 at +0:02)
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: DamageableActor.gen.cpp (0:01.07 at +0:03)
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: UE4Editor-CppLearningProject-3200.dll (0:00.96 at +0:04)
+[2020.09.05-13.56.47:191][909]CompilerResultsLog:    Creating library C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-3200.suppressed.lib and object C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-3200.suppressed.exp
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: UE4Editor-CppLearningProject-3200.lib (0:00.10 at +0:05)
+[2020.09.05-13.56.47:191][909]CompilerResultsLog:    Creating library C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-3200.lib and object C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-3200.exp
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: CppLearningProjectEditor.target (0:00.23 at +0:05)
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: 
+[2020.09.05-13.56.47:191][909]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: 
+[2020.09.05-13.56.47:191][909]CompilerResultsLog: 1 build system warning(s):
+[2020.09.05-13.56.47:191][909]CompilerResultsLog:    - License is invalid
+[2020.09.05-13.56.47:192][909]CompilerResultsLog: 
+[2020.09.05-13.56.47:192][909]CompilerResultsLog: Total time in XGE executor: 5,66 seconds
+[2020.09.05-13.56.47:192][909]CompilerResultsLog: Total execution time: 17,66 seconds
+[2020.09.05-13.56.47:192][909]LogMainFrame: MainFrame: Module compiling took 18.087 seconds
+[2020.09.05-13.56.47:199][909]LogClass: Could not find existing class DamageableActor in package /Script/CppLearningProject for HotReload, assuming new class
+[2020.09.05-13.56.47:199][909]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.09.05-13.56.47:200][909]LogWindows: Windows GetLastError: The operation completed successfully. (0)

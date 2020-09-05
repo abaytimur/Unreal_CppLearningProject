@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Kadir\\Projeler\\Unreal\\CppLearningProject\\Unreal_CppLearningProject\\CppLearningProject\\Source\\CppLearningProject\\CppLearningProject.Build.cs",
+		"C:\\Kadir\\Projeler\\Unreal\\CppLearningProject\\Unreal_CppLearningProject\\CppLearningProject\\Source\\CppLearningProject.Target.cs",
+		"C:\\Kadir\\Projeler\\Unreal\\CppLearningProject\\Unreal_CppLearningProject\\CppLearningProject\\Source\\CppLearningProjectEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+}

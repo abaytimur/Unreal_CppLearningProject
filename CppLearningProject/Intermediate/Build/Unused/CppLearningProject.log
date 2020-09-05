@@ -1,0 +1,31 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject).
+  Creating makefile for CppLearningProjectEditor (no existing makefile)
+  Parsing headers for CppLearningProjectEditor
+    Running UnrealHeaderTool "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\CppLearningProject.uproject" "C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\CppLearningProjectEditor\Development\CppLearningProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\a_bay\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for CppLearningProjectEditor in 10,5797511 seconds
+  Building CppLearningProjectEditor...
+  Using Visual Studio 2019 14.27.29111 toolchain (C:\Kadir\Programlar\Visual Studio\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Distributing 5 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  FPSCharacter.cpp (0:08.12 at +0:00)
+  FPSCharacter.gen.cpp (0:01.68 at +0:08)
+  UE4Editor-CppLearningProject-0002.dll (0:01.29 at +0:09)
+     Creating library C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-0002.suppressed.lib and object C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-0002.suppressed.exp
+  UE4Editor-CppLearningProject-0002.lib (0:00.14 at +0:11)
+     Creating library C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-0002.lib and object C:\Kadir\Projeler\Unreal\CppLearningProject\Unreal_CppLearningProject\CppLearningProject\Intermediate\Build\Win64\UE4Editor\Development\CppLearningProject\UE4Editor-CppLearningProject-0002.exp
+  CppLearningProjectEditor.target (0:00.28 at +0:11)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Total time in XGE executor: 11,78 seconds
+  Total execution time: 26,05 seconds

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CppLearningProject",
+			"Path": "C:\\Kadir\\Projeler\\Unreal\\CppLearningProject\\Unreal_CppLearningProject\\CppLearningProject\\Source\\CppLearningProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CppLearningProjectEditor",
+			"Path": "C:\\Kadir\\Projeler\\Unreal\\CppLearningProject\\Unreal_CppLearningProject\\CppLearningProject\\Source\\CppLearningProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
